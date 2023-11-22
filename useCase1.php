@@ -45,3 +45,29 @@ $total_tax = $bananas_tax + $apples_tax + $wine_tax;
 
 echo "Total tax: " . $total_tax . " $" . "<br>";
 echo "Total price with tax: " . ($total_price + $total_tax) . " $" . "<br>";
+echo "with classes: <br>";
+
+
+// class
+class Basket {
+    public $quantity;
+    public $price;
+
+    public function __construct($quantity, $price) {
+        $this->quantity = $quantity;
+        $this->price = $price;
+    }
+
+    public function getTotal() {
+        return $this->quantity * $this->price;
+    }
+}
+// Instantiate object(s)
+$bananas = new Basket(6, 1);
+$apples = new Basket(3, 1.5);
+$wine = new Basket(2, 10);
+
+//  total price
+$total_price = $bananas->getTotal() + $apples->getTotal() + $wine->getTotal();
+
+echo "Total price: " . $total_price . " $" . "<br>";
