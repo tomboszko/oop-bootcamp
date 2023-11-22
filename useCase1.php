@@ -52,12 +52,12 @@ echo "with classes: <br>";
 class Basket {
     public $quantity;
     public $price;
-
+// constructor
     public function __construct($quantity, $price) {
         $this->quantity = $quantity;
         $this->price = $price;
     }
-
+// method
     public function getTotal() {
         return $this->quantity * $this->price;
     }
