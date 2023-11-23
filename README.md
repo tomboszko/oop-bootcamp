@@ -12,5 +12,5 @@ I had some struggles with the child classes (extends) because I didn't knew that
 
 # Note
 
-To add a touch of creativity,when the result is stylized, I made it via an AI, I assume it completly as the main purpose of those exercices is to handle mainly backend side. :shy
+To add a touch of creativity,when the result is stylized, I made it via an AI, I assume it completly as the main purpose of those exercices is to handle mainly backend side. :trollface:
 
